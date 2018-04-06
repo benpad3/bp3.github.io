@@ -1,0 +1,884 @@
+body,
+html {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+header {
+    background-image: url("images/servbg.jpeg");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+#ide {
+    height: 100%;
+
+}
+
+#resu {
+    height: 100%;
+
+}
+
+#pptx {
+    height: 100%;
+
+}
+
+#illus > img {
+
+
+    margin-left: 13%;
+
+
+}
+
+#illus1 > img {
+
+
+    margin-left: 15%;
+
+
+}
+
+#custom-bootstrap-menu .container-fluid.text-center .navbar-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-fluid.text-center .collapse.navbar-collapse.navbar-menubuilder .nav.navbar-nav.navbar-right {
+    margin-top: 25px;
+}
+
+.container-fluid.text-center .collapse.navbar-collapse.navbar-menubuilder .nav.navbar-nav.navbar-left {}
+
+
+
+
+.carousel-control.left,
+.carousel-control.right {
+    background: none !important;
+    filter: progid:none !important;
+    >
+}
+
+/* Style the main content */
+
+main,
+section {
+       background-image: -webkit-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: linear-gradient(180deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the footer */
+
+footer {
+    background-image: url(images/border-ani-starry.gif);
+    font-size: 18px;
+    color: whitesmoke;
+    padding-top: 1%;
+    text-align: center;
+    padding-bottom: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Section dividers with images */
+
+#bgstrip1 {
+    background-image: url("images/net_Fotor.png");
+    min-height: 400px;
+    width: 100%;
+    font-size: 24px;
+    color: aliceblue;
+
+
+}
+
+#bgstrip2 {
+    background-image: url("images/Computer_inside_(1).jpg");
+    width: 100%;
+
+    font-size: 24px;
+
+
+}
+
+p {
+    font-size: 18px;
+}
+
+#bgstrip2,
+/* This class will give a background image a parallax scrolling effect where the image is fixed and the rest of the page scrolls over it. Based on https://www.w3schools.com/howto/howto_css_parallax.asp
+*/
+
+.parallax_image {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*back to top button*/
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+/*boot-strap navbar*/
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: orange;
+}
+
+#custom-bootstrap-menu.navbar-default {
+    font-size: 20px;
+    background-color: black;
+    border: 0px;
+    background-image: url(images/border-ani-starry.gif) position: fixed;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav > li > a {
+    color: #ffa400;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav > li > a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav > li > a:focus {
+    color: steelblue;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a,
+#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(231, 231, 231, 0);
+    background: -webkit-linear-gradient(top, rgba(166, 46, 46, 0.02) 0%, rgba(231, 231, 231, 0) 100%);
+    background: linear-gradient(to bottom, rgba(166, 46, 46, 0.02) 0%, rgba(231, 231, 231, 0) 100%);
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+    text-decoration-line: underline;
+
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: black;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-image: url(images/border-ani-starry.gif)
+}
+
+.carousel-inner img {
+    width: 23%;
+-webkit-box-shadow: 2px 3px;
+    box-shadow: 2px 3px;
+    background-image: -webkit-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: linear-gradient(180deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    border-radius: 62px;
+    /* Set width to 100% */
+  margin: auto;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+
+}
+
+.carousel-inner {
+
+    background-image: -webkit-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: linear-gradient(180deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+.carousel-inner a:hover img {
+
+    margin: auto;
+    -webkit-box-shadow: 2px 3px;
+    box-shadow: 2px 3px;
+    background-image: -webkit-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: linear-gradient(180deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    border-radius: 61px;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+}
+
+.row .col-sm-4 .img-responsive.glyphicon-apple {
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    margin-left: 40%;
+}
+
+
+
+.row .col-sm-4 .img-responsive.glyphicon-apple {
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    margin-left: 40%;
+}
+
+.row .col-sm-4 .img-responsive.kali {
+    margin-left: 125px;
+}
+
+.row .col-sm-4 .unix {
+    margin-top: 20px;
+
+}
+
+.overlay.text-center logo .logoo {
+    padding-bottom: 50px;
+    margin-top: 3%;
+}
+
+#closing {
+    padding-bottom: 1%;
+}
+
+.container-fluid.text-center .collapse.navbar-collapse.navbar-menubuilder .nav.navbar-nav.navbar-left {
+    margin-top: 25px;
+}
+
+.item .carousel-caption .caps {
+    margin-bottom: -8%;
+
+
+
+}
+
+#myCarousel {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+}
+
+#animate :hover {}
+
+.bg-1 #home {
+    background-image: -webkit-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: linear-gradient(180deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+}
+
+.container-fluid .navbar-header .navbar-brand {
+    color: #ffa400;
+
+}
+
+.container-fluid .navbar-header .navbar-brand :hover {
+    color: steelblue;
+
+}
+
+.nav.navbar-nav.navbar-right .active .home {
+    color: #ffa400;
+}
+
+
+.nav.navbar-nav.navbar-right .dropdown .dropdown-toggle {
+    color: #ffa400;
+}
+
+.overlay,
+logo {
+    margin-top: 5%;
+
+
+}
+
+#myCarousel .carousel-indicators.ind {
+    margin-bottom: -1%;
+
+
+
+}
+
+.row .col-sm-4 .img-responsive.windows {
+    margin-left: 65px;
+}
+
+.row .col-sm-4 .img-responsive.linux {
+    margin-left: 50px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: -10px;
+}
+
+#opses {
+    background-image: -webkit-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: linear-gradient(180deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+
+}
+
+
+#closing {
+    background-image: -webkit-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: linear-gradient(180deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    font-size: 18px;
+    color: aliceblue;
+    justify-content: center;
+
+}
+
+#kali {
+    width: 25%;
+    align-self: center;
+    margin-left: 6%;
+}
+#apple {
+    width: 27%;
+
+    align-self: center;
+}
+
+#windows {
+    width: 25%;
+margin-left: 8%;
+
+    align-self: center;
+}
+
+#linux {
+    width: 25%;
+margin-left: -1%;
+    align-self: center;
+}
+
+#kali:hover {
+    width: 25%;
+    align-self: center;
+    margin-left: 6%;
+    padding: 4%;
+}
+#apple:hover {
+   
+    padding: 4%;
+
+    align-self: center;
+    padding: inherit;
+}
+
+.windows:hover {
+    width: 25%;
+margin-left: 8%;
+    padding: 4%
+
+    align-self: center;
+}
+
+#linux:hover {
+    width: 25%;
+margin-left: -1%;
+    align-self: center;
+        padding: 4%
+
+}
+
+.microso {
+    margin-left: 25px;
+    margin-top: 10px;
+    padding-bottom: 28px;
+
+
+
+}
+
+.unix {}
+
+.logoo {
+    margin: auto;
+    -webkit-box-shadow: 2px 3px;
+    box-shadow: 2px 3px;
+    background-image: -webkit-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: linear-gradient(180deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    border-radius: 19px;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    margin-bottom: 6%;
+}
+
+.logoo:hover {
+
+    margin: auto;
+    -webkit-box-shadow: 2px 3px;
+    box-shadow: 2px 3px;
+    background-image: -webkit-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: linear-gradient(180deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    border-radius: 18px;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    margin-bottom: 6%;
+}
+
+.oerlay {}
+
+.stcc {
+    padding-top: 32%;
+    width: 70%;
+}
+
+.elms {
+    padding-top: 32%;
+    width: 70%;
+
+}
+
+
+.fancy-link {
+    color: #333333;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+}
+
+.fancy-link:hover {
+    padding-right: 30%;
+    padding-left: 30%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-top: 14px;
+}
+
+
+
+
+
+#bgstrip1 #text h1 {
+    background-color: #000000;
+    opacity: 0.75;
+}
+
+#bgstrip1 #text {
+    background-color: #000000;
+    padding-top: 5px;
+    padding-bottom: 9%;
+    margin-left: 10%;
+    margin-right: 10%;
+    opacity: 0.69;
+    border-radius: 62px;
+}
+
+#bgstrip2 #text1 h1 {
+    background-color: #000000;
+    opacity: 0.75;
+    color: aliceblue;
+
+}
+
+#bgstrip2 #text1 {
+    background-color: #000000;
+    padding-top: 5%;
+    padding-bottom: 9%;
+    margin-left: 10%;
+    margin-right: 10%;
+    opacity: 0.72;
+    color: aliceblue;
+    border-radius: 62px;
+
+}
+
+
+@media (max-width: 1020px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+@media (max-width: 850px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+/* Media Queries */
+
+@media only screen and (max-width:768px) {
+    #overlay {
+        height: 500px;
+    }
+}
+
+
+/* Visibility Helpers */
+
+@media only screen and (min-width:769px) {
+    .visible-mobile,
+    .visible-tablet,
+    .hidden-desktop {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:768px) {
+    .visible-mobile,
+    .hidden-tablet,
+    .visible-desktop {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .hidden-mobile,
+    .visible-tablet,
+    .visible-desktop {
+        display: none !important;
+    }
+}
+
+.pace.pace-inactive {
+    display: none;
+}
+
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+
+    z-index: 2000;
+    position: fixed;
+    height: 60px;
+    width: 100px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.pace .pace-progress {
+    z-index: 2000;
+    position: absolute;
+    height: 60px;
+    width: 100px;
+
+    -webkit-transform: translate3d(0, 0, 0) !important;
+    -ms-transform: translate3d(0, 0, 0) !important;
+    transform: translate3d(0, 0, 0) !important;
+}
+
+.pace .pace-progress:before {
+    content: attr(data-progress-text);
+    text-align: center;
+    color: #fff;
+    background: #000000;
+    border-radius: 50%;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 0;
+    padding: 20% 0 20px;
+    width: 50%;
+    height: 8%;
+    margin: 13px 0 0 25px;
+    display: block;
+    z-index: 999;
+    position: absolute;
+}
+
+.pace .pace-activity {
+    font-size: 15px;
+    line-height: 1;
+    z-index: 2000;
+    position: absolute;
+    height: 60px;
+    width: 100px;
+
+    display: block;
+    -webkit-animation: pace-theme-center-atom-spin 2s linear infinite;
+    -moz-animation: pace-theme-center-atom-spin 2s linear infinite;
+    -o-animation: pace-theme-center-atom-spin 2s linear infinite;
+    animation: pace-theme-center-atom-spin 2s linear infinite;
+}
+
+.pace .pace-activity {
+    border-radius: 50%;
+    border: 5px solid #000000;
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100px;
+}
+
+.pace .pace-activity:after {
+    border-radius: 50%;
+    border: 5px solid #000000;
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    height: 60px;
+    width: 100px;
+
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+    transform: rotate(60deg);
+}
+
+.pace .pace-activity:before {
+    border-radius: 50%;
+    border: 5px solid #000000;
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    height: 60px;
+    width: 100px;
+
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
+
+@-webkit-keyframes pace-theme-center-atom-spin {
+    0% {
+        -webkit-transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(359deg)
+    }
+}
+
+@-moz-keyframes pace-theme-center-atom-spin {
+    0% {
+        -moz-transform: rotate(0deg)
+    }
+    100% {
+        -moz-transform: rotate(359deg)
+    }
+}
+
+@-o-keyframes pace-theme-center-atom-spin {
+    0% {
+        -o-transform: rotate(0deg)
+    }
+    100% {
+        -o-transform: rotate(359deg)
+    }
+}
+
+@keyframes pace-theme-center-atom-spin {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(359deg)
+    }
+}
+
+main {
+border: 0px;
+    background-image: -webkit-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: linear-gradient(180deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+}
+
+#assignmentWindow {
+    background-image: -webkit-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: linear-gradient(180deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+}
+
+#illus1 {
+    background-image: -webkit-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: linear-gradient(180deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+
+}
+
+#illus {
+    background-image: -webkit-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+    background-image: linear-gradient(180deg, rgba(92, 137, 177, 1.00) 0%, rgba(0, 0, 0, 1.00) 100%);
+
+}
+
+#myImg0 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg0:hover {opacity: 0.7;}
+#myImg1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg1:hover {opacity: 0.7;}
+#myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg2:hover {opacity: 0.7;}
+#myImg3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg3:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 450px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.assignmentWindow {
+border: 0px;
+background-color: red;
+}
+.close:hover,
+.close:focus {
+    color: steelblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}

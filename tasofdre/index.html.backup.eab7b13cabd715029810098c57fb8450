@@ -1,0 +1,49 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/webdesfin.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Taste Of Drea's</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="webfinsty.css" rel="stylesheet" type="text/css">
+<link href="phone.css" rel="stylesheet" type="text/css" media="screen and (max-width:480px)">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/arizonia:n4:default.js" type="text/javascript"></script>
+</head>
+
+<body><div id="container">
+<header>
+       <h1><br>
+    Taste<br> Of<br> Drea's</h1><center>
+
+	
+    <p>Taste Of Drea's<br>
+    Springfield, MA<br>
+   (413)206-9452</p>
+         <a href="index.html"><img src="Logomakr_4jUvR1.png" width="60px" height="100px" alt="logo"/></a>
+       </center>
+  </header>
+<nav>
+  <a href="index.html" class="btn">Home</a>
+  <a href="gallery1.html" class="btn">Gallery</a>
+ <a href="upnext1.html" class="btn">Up Next</a>
+  <a href="AreaCoverage1.html" class="btn">Coverage</a>
+  <a href="ResrveAPlate1.html" class="btn">Reserve a plate</a>
+</nav>
+<main><!-- InstanceBeginEditable name="EditRegion3" -->
+  <p>
+  <h1>Welcome to Taste Of Drea's</h1>
+  </p>
+  <p class="ind">We provide Monday midday meals, a home cooked meal with more nutrients and proteins than your average fast food franchise. If you have a taste for Caribbean or southern food, look no further! What is better than a home cooked meal? How about having it delivered? We do all that, plus you will receive a free bottle of water with your order. While you tour our site, you will be able to view the meals I have previously prepared on the gallery page. The area coverage page shows my delivery perimeter, so if you find yourself in the zone, call and order. On the up next page, you can view the meal that will be prepared on the up-coming Monday. And, finally, to place an order, just visit my reserve a plate page where you can place an order by email or over the phone. Taste of Drea’s, where the food is cooked with love.</p>
+  <p><center><h2>Thank you for visiting our website.</h2></center></p>
+<!-- InstanceEndEditable --></main>
+	<footer><center><br><p><a href="https://facebook.com/TASTE-of-DREAS-1283799551697115" target="new"><img src="facebook-logo_512-512.png" width="65" height="48" alt=""/></a></p>
+	</center>
+		<p><center>
+		Phone: (413)206-9452 – <a href="mailto:tasteofdreas@gmail.com" target="new" class="btn">tasteofdreas@gmail</a> – Springfield, MA 01109
+      </center></p>
+<center><p>© Taste Of Drea’s 2017 </p>
+</center></footer></div>
+</body>
+<!-- InstanceEnd --></html>

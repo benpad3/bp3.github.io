@@ -1,0 +1,20 @@
+@charset "utf-8";
+#container header {
+	padding-bottom: 2%;
+
+
+}
+#container header p {
+	margin-top: -24%;
+
+}
+center a img {
+	width: 21%;
+	height: 100%;
+}
+
+
+
+
+@media (max-width: 780px){
+}
